@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+footer {
+    margin-bottom: 0 !important;
+}
+
+body {
+    margin-top: 10% !important;
+}
+
+img {
+    object-fit: cover;
+}
+
+.img-zoom:hover {
+    transform: scale(1.4);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin-top: 25% !important;
+    }
+    
+}
